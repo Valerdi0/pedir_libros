@@ -3,6 +3,6 @@
 
 # Tareas
 
- - [ ] Script BD
+ - [x] Script BD
  - [ ] Servidor para ejecutar sentencias sql
  - [ ] omunicacion con otro Servidor
