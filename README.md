@@ -4,5 +4,5 @@
 # Tareas
 
  - [x] Script BD
- - [ ] Servidor para ejecutar sentencias sql
+ - [x] Servidor para ejecutar sentencias sql
  - [ ] omunicacion con otro Servidor
