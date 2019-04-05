@@ -5,13 +5,15 @@
  */
 package servidor;
 
+import java.io.IOException;
+
 /**
  *
  * @author Daniel
  */
 public class Main {
       
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Window maestro = new Window();
         Servidor conexion = new Servidor();
         RelojHilo contador = new RelojHilo(maestro.LabelReloj1,

@@ -6,6 +6,7 @@
 package servidor;
 
 import java.awt.Color;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -28,7 +29,12 @@ public class Window extends javax.swing.JFrame {
      * Creates new form MainWindow
      */
     public Window() {
-        canvas = new Canvas("libro_default.png");
+        try{
+            canvas = new Canvas("libro_default.png");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        
         javax.swing.GroupLayout canvasLayout = new javax.swing.GroupLayout(canvas);
         canvas.setLayout(canvasLayout);
         canvasLayout.setHorizontalGroup(
